@@ -64,9 +64,9 @@ df['Location'] = df['event_details'].str.extract(r'Location:(.*?);')
 
 
 # In[55]:
-df_history = pd.read_csv('history.csv')
+df_history = pd.read_csv('https://yang-data-project.s3.amazonaws.com/conservative-events/conservative_events.csv')
 
-df_history = df_history.iloc[:,1:]
+# df_history = df_history.iloc[:,1:]
 
 
 # In[56]:
