@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[47]:
-
+pip install pandas
 
 import pandas as pd
 from bs4 import BeautifulSoup
