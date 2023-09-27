@@ -66,7 +66,6 @@ df['Location'] = df['event_details'].str.extract(r'Location:(.*?);')
 # In[55]:
 df_history = pd.read_csv('https://yang-data-project.s3.amazonaws.com/conservative-events/conservative_events.csv')
 
-# df_history = df_history.iloc[:,1:]
 
 
 # In[56]:
@@ -87,10 +86,6 @@ df = df.drop_duplicates()
 df.to_csv('conservative_events.csv', index=False)
 
 
-# In[ ]:
-
-
-df_history = pd.read_csv('history.csv')
 
 print("the csv file is exported successfully!")
 
