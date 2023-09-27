@@ -72,7 +72,7 @@ df_history = df_history.iloc[:,1:]
 # In[56]:
 
 
-df = pd.concat([df_history, df)
+df = pd.concat([df_history, df])
 
 
 # In[57]:
