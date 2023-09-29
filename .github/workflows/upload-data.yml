@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *'    # <-- Set your cron here (UTC), for syntax see https://crontab.guru/
+    - cron: '*/6 * * * *'    # <-- Set your cron here (UTC), for syntax see https://crontab.guru/
 
 jobs:
   build:
