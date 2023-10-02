@@ -5,7 +5,7 @@ import ssl
 from email.message import EmailMessage
 
 # Import two datasets
-df_history = pd.read_csv('https://yang-data-project.s3.amazonaws.com/conservative-events/conservative_events.csv')
+df_history = pd.read_csv('https://yang-data-project.s3.amazonaws.com/conservative-events/data/conservative_events.csv')
 df_current = pd.read_csv('data/conservative_events.csv')
 
 # Compare the datasets
