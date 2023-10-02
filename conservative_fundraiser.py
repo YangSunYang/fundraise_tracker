@@ -83,7 +83,7 @@ df = df.drop_duplicates()
 # In[58]:
 
 
-df.to_csv('conservative_events.csv', index=False)
+df.to_csv('data/conservative_events.csv', index=False)
 
 
 
