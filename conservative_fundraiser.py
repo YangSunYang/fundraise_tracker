@@ -31,9 +31,21 @@ event_name = []
 event_content = []
 
 for event in events:
-    # Event title normally uses H3 tag
     title_h3 = event.find('h3')
-    title_text = title_h3.text.strip()
+    if not title_h3:
+        title_h2 = event.find('h2')
+        if not title_h2:
+            title_h1 = event.find('h1')
+            if title_h1:
+                title_text = title_h1.text.strip()
+            else:
+                title_text = 'Title not found'
+                
+        else:
+            title_text = title_h2.text.strip()
+    else:
+        title_text = title_h3.text.strip()
+    
     event_name.append(title_text)
 
     # Locate p tags which store event details, such as time and location   
