@@ -17,7 +17,7 @@ else:
 # Sending message via email
 email_sender = 'yang.sun.globeandmail@gmail.com'
 email_password = 'dcgmvclcqwhffblk'
-email_receiver = ['ysun@globeandmail.com', 'kkirkup@globeandmail.com', 'ibailey@globeandmail.com']
+email_receiver = ['ysun@globeandmail.com']
 
 
 subject = 'Conservative party events update'
