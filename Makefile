@@ -1,4 +1,4 @@
-all: dir scraper compare
+all: dir scraper
 
 dir:
 	-mkdir data
