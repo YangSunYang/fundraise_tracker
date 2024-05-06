@@ -5,6 +5,3 @@ dir:
 
 scraper:
 	python3 conservative_fundraiser.py
-
-compare:
-	python3 compare.py
